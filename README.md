@@ -51,3 +51,23 @@ rm -rf app
 # copy your app over
 cp -R ../my-old-remix-app/app app
 ```
+
+
+### Remix file structure 
+
+Our three main files sets the overall functionality and html output: 
+- `entry.client.jsx`
+- `entry.server.jsx`
+- `root.jsx`
+
+`/routes` folder contain our main React component - `index.jsx`. 
+
+
+
+### Why Remix? 
+- https://developpaper.com/next-js-strong-opponent-is-coming-remix-officially-announced-open-source/ 
+- Remix is a Web Framework, it uses React as the view layer like Next, but it's not tied to React and it's more intended to be a full-stack web application framework.
+
+- Remix has no static site support, so it always needs a server.
+- Good for use cases where you have a database, dynamic data, user accounts with private data, etc. 
+- The client and server have the same development experience. The client code and server code are written in one file for seamless data interaction. At the same time, based on typescript, type definitions can be shared across clients and servers.  (Love this <3)
